@@ -32,4 +32,5 @@ Alto policia: :
 
 ## Diagrama de clases 
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/95ee94fc-4ee1-4546-9dd2-3c42a0c12f8b)
+
