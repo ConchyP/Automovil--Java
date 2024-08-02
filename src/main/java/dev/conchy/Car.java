@@ -146,6 +146,7 @@ public class Car {
         if (currentSpeed + speedIncrement <= maxSpeed) {
             currentSpeed += speedIncrement;
             if (currentSpeed > 120) {
+            penalty += 50;
             System.out.println("Speed exceeds 120 km/h. Penalty applied. Actual penalty: " + penalty);
         }
     } else {
@@ -191,7 +192,6 @@ void print() {
     System.out.println("Color = " + color);
     System.out.println("Automatic = " + (isAutomatic ? "Yes" : "No"));
 }
-
 }
 
 

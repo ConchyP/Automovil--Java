@@ -1,5 +1,6 @@
 package dev.conchy;
 
+
 import dev.conchy.Car.CarType;
 import dev.conchy.Car.Color;
 import dev.conchy.Car.FuelType;
@@ -9,7 +10,8 @@ public class AppCar {
 
     public static void main(String[] args) {
         
-        Car car = new Car("Ford", 2003, 1.8, FuelType.DIESEL, CarType.COMPACT, 2, 5, 180, Color.BLACK, 0.0, false);
+          Car car = new Car("Ford", 2003, 55, FuelType.DIESEL, CarType.COMPACT, 2, 5, 180, Color.BLACK, 0, 0.0, false);
+    
     
         car.print();
 
@@ -28,5 +30,10 @@ public class AppCar {
 
         System.out.println("Some fines?: " + car.hasPenalties());
         System.out.println("Total fines: " + car.valueTotalPenalties());
+    }
+
+    @Override
+    public String toString() {
+        return "AppCar []";
     }
 }
